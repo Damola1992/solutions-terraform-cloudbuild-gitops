@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "ngt-current-tfstate"
+    bucket = "ngt-current-tfstate-deleting"
     prefix = "env/dev"
   }
 }
